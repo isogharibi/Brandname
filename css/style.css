@@ -1,0 +1,205 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Oxanium', cursive;
+}
+
+main {
+    max-width: 370px;
+    margin: 27px auto;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+.mobile-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.humber-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.humber-menu hr {
+    border-radius: 7px;
+    width: 30px;
+    height: 5px;
+    background-color: black;
+}
+
+.mobile-header h1 {
+    font-size: 23px;
+}
+
+.img-and-info {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img-and-info img {
+    width: 360px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.info h6 {
+    color: #96BB7C;
+}
+
+.info h1 {
+    color: #252B42;
+    font-size: 42px;
+}
+
+.img {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.info h5 {
+    color: #737373;
+    font-size: 12px;
+}
+
+.btn {
+    display: flex;
+    gap: 10px;
+}
+
+.join-btn {
+    background-color: #96BB7C;
+    width: 100px;
+    padding: 12px;
+    color: #ffff;
+    font-size: 12px;
+    border-radius: 3px;
+    border: none;
+}
+
+.learn-btn {
+    background-color: transparent;
+    width: 100px;
+    padding: 12px;
+    color: #96BB7C;
+    font-size: 12px;
+    border-radius: 3px;
+    border: solid 2px #96BB7C;
+}
+
+.Popular-COURSES {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 12px;
+    margin-top: 90px;
+}
+
+.Popular-COURSES h6 {
+    color: #96BB7C;
+}
+
+.Popular-COURSES h1 {
+    font-size: 26px;
+    color: #252B42;
+}
+
+.Popular-COURSES p {
+    font-size: 10px;
+    color: #737373;
+}
+
+.Popular-COURSES img {
+    width: 320px;
+}
+
+.Popular-Courses {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 14px;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+    width: auto;
+    height: auto;
+    padding: 82px;
+}
+#icones {
+    width: 60px;
+}
+#fixed {
+    width: 90px;
+}
+.popular-curse {
+    text-align: center;
+    margin-top: 200px;
+}
+.popular-curse p{
+    color: #737373;
+    text-align: center;
+}
+
+.popular-curse h6 {
+    color: #96BB7C;
+    text-align: center;
+}
+
+.popular-curse h1 {
+    font-size: 26px;
+    color: #252B42;
+    text-align: center;
+}
+
+.popular-curse p {
+    font-size: 10px;
+    color: #737373;
+    text-align: center;
+}
+
+.populars-items {
+    display: flex;
+    gap: 80px;
+    flex-direction: column;
+}
+
+.our-popular {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    margin-top: 50px;
+}
+
+.our-popular p{
+    color: #737373;
+}
+
+.our-popular h1{
+    text-align: center;
+    font-weight: 500;
+}
+
+.learn-more {
+    display: flex;
+    align-items: center;
+    color: #96BB7C;
+    justify-content: center;
+    gap: 10px;
+}
+
+.learn-more img{
+    width: 10px;
+}
